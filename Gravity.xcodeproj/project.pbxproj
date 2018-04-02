@@ -548,10 +548,10 @@
 				DEVELOPMENT_TEAM = 9KBH5RKYEW;
 				INFOPLIST_FILE = Gravity/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = meirav.com.novn.Gravity;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.microsoft.CleanReactNative-df";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "c381f3d3-9dc4-450f-a775-c8da1e4809de";
-				PROVISIONING_PROFILE_SPECIFIER = "Microsoft Dogfood Provisioning Profile";
+				PROVISIONING_PROFILE = "1d5343ee-b629-4d0f-aeb8-374bcd744774";
+				PROVISIONING_PROFILE_SPECIFIER = "CleanReactNative Dogfood Distribution";
 			};
 			name = Debug;
 		};
@@ -564,10 +564,10 @@
 				DEVELOPMENT_TEAM = 9KBH5RKYEW;
 				INFOPLIST_FILE = Gravity/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = meirav.com.novn.Gravity;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.microsoft.CleanReactNative-df";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "c381f3d3-9dc4-450f-a775-c8da1e4809de";
-				PROVISIONING_PROFILE_SPECIFIER = "Microsoft Dogfood Provisioning Profile";
+				PROVISIONING_PROFILE = "1d5343ee-b629-4d0f-aeb8-374bcd744774";
+				PROVISIONING_PROFILE_SPECIFIER = "CleanReactNative Dogfood Distribution";
 			};
 			name = Release;
 		};

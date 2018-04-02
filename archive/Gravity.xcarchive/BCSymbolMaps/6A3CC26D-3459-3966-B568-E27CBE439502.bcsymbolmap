@@ -1,0 +1,206 @@
+BCSymbolMap Version: 2.0
+-[GVHole initWithLocation:andWidth:]
+-[GVHole width]
+_OBJC_CLASS_$_GVHole
+_OBJC_IVAR_$_GVHole._width
+_OBJC_METACLASS_$_GVEnemy
+_OBJC_METACLASS_$_GVHole
+_OBJC_CLASS_$_GVEnemy
+Apple LLVM version 9.0.0 (clang-900.0.39.2)
+/Users/meiravfeiler/Documents/Development/Tests projects/Devlopment/Gravity/Gravity/GVHole.m
+/Users/meiravfeiler/Documents/Development/Tests projects/Devlopment/Gravity
+/Users/meiravfeiler/Documents/Development/Tests projects/Devlopment/Gravity/Gravity/GVHole.h
+-[ViewController initWithNibName:bundle:]
+-[ViewController viewDidLoad]
+-[ViewController viewDidLayoutSubviews]
+-[ViewController startOver:]
+-[ViewController nextFrame]
+-[ViewController Boom:]
+-[ViewController animationDone:]
+-[ViewController fallDown]
+___26-[ViewController fallDown]_block_invoke
+___copy_helper_block_
+___destroy_helper_block_
+___26-[ViewController fallDown]_block_invoke.121
+___copy_helper_block_.122
+___destroy_helper_block_.123
+-[ViewController changeGravity:]
+___32-[ViewController changeGravity:]_block_invoke
+___copy_helper_block_.128
+___destroy_helper_block_.129
+___32-[ViewController changeGravity:]_block_invoke.131
+___copy_helper_block_.132
+___destroy_helper_block_.133
+-[ViewController didReceiveMemoryWarning]
+-[ViewController beginFuzyyAnimation]
+-[ViewController endFuzzyAnimation]
+-[ViewController surface]
+-[ViewController setSurface:]
+-[ViewController background]
+-[ViewController setBackground:]
+-[ViewController midGround]
+-[ViewController setMidGround:]
+-[ViewController foregGround]
+-[ViewController setForegGround:]
+-[ViewController imageTop]
+-[ViewController setImageTop:]
+-[ViewController imageBottom]
+-[ViewController setImageBottom:]
+-[ViewController timer]
+-[ViewController setTimer:]
+-[ViewController fuzzyAnimationtimer]
+-[ViewController setFuzzyAnimationtimer:]
+-[ViewController spaceWalker]
+-[ViewController setSpaceWalker:]
+-[ViewController garvityButton]
+-[ViewController setGarvityButton:]
+-[ViewController lastGameTime]
+-[ViewController setLastGameTime:]
+-[ViewController fuzzyBall]
+-[ViewController setFuzzyBall:]
+-[ViewController gameOver]
+-[ViewController setGameOver:]
+-[ViewController isWalkingBottom]
+-[ViewController setIsWalkingBottom:]
+-[ViewController fixedMonster]
+-[ViewController setFixedMonster:]
+-[ViewController isGameOver]
+-[ViewController setIsGameOver:]
+-[ViewController isGravityChanging]
+-[ViewController setIsGravityChanging:]
+-[ViewController isFallingDown]
+-[ViewController setIsFallingDown:]
+-[ViewController .cxx_destruct]
+_OBJC_CLASS_$_ViewController
+_OBJC_IVAR_$_ViewController._isWalkingBottom
+_OBJC_CLASS_$_GVGameSurface
+_OBJC_IVAR_$_ViewController._surface
+_OBJC_CLASS_$_GVSprite
+_OBJC_IVAR_$_ViewController._background
+_OBJC_IVAR_$_ViewController._midGround
+_OBJC_IVAR_$_ViewController._foregGround
+_OBJC_IVAR_$_ViewController._spaceWalker
+_OBJC_CLASS_$_GVMovingEnemy
+_OBJC_IVAR_$_ViewController._fuzzyBall
+_OBJC_CLASS_$_GVFixedEnemy
+_OBJC_IVAR_$_ViewController._fixedMonster
+_OBJC_IVAR_$_ViewController._gameOver
+_OBJC_IVAR_$_ViewController._lastGameTime
+_OBJC_IVAR_$_ViewController._timer
+_OBJC_CLASS_$_GVEnemyLogic
+_OBJC_IVAR_$_ViewController._isGravityChanging
+_OBJC_IVAR_$_ViewController._isGameOver
+_OBJC_IVAR_$_ViewController._isFallingDown
+_OBJC_IVAR_$_ViewController._garvityButton
+___block_descriptor_tmp
+___block_descriptor_tmp.125
+___block_descriptor_tmp.130
+___block_descriptor_tmp.134
+_OBJC_IVAR_$_ViewController._fuzzyAnimationtimer
+_OBJC_IVAR_$_ViewController._imageTop
+_OBJC_IVAR_$_ViewController._imageBottom
+l_OBJC_PROTOCOL_$_NSObject
+l_OBJC_LABEL_PROTOCOL_$_NSObject
+l_OBJC_PROTOCOL_$_GVGameSurfaceDelegate
+l_OBJC_LABEL_PROTOCOL_$_GVGameSurfaceDelegate
+_OBJC_METACLASS_$_ViewController
+/Users/meiravfeiler/Documents/Development/Tests projects/Devlopment/Gravity/Gravity/ViewController.m
+__destroy_helper_block_
+__copy_helper_block_
+__32-[ViewController changeGravity:]_block_invoke.131
+__32-[ViewController changeGravity:]_block_invoke
+__26-[ViewController fallDown]_block_invoke.121
+__26-[ViewController fallDown]_block_invoke
++[GVEnemyLogic enemyLogicInstance]
+-[GVEnemyLogic cleraData]
+-[GVEnemyLogic isEncounteredFixedEnemy:movingEnemy:isBottomWalker:]
+-[GVEnemyLogic isEncounteredMovingEnemy:movingEnemy:isBottomWalker:]
+-[GVEnemyLogic clearData]
+-[GVEnemyLogic isEncounteredStaticEnemy:isBottom:yLocation:]
+-[GVEnemyLogic bottomeEnemies]
+-[GVEnemyLogic setBottomeEnemies:]
+-[GVEnemyLogic topEnemies]
+-[GVEnemyLogic setTopEnemies:]
+-[GVEnemyLogic currentBottmEnemyIndex]
+-[GVEnemyLogic setCurrentBottmEnemyIndex:]
+-[GVEnemyLogic currentTopEnemyIndex]
+-[GVEnemyLogic setCurrentTopEnemyIndex:]
+-[GVEnemyLogic .cxx_destruct]
+_enemyLogicInstance.enemyLogicInstance
+_OBJC_IVAR_$_GVEnemyLogic._currentBottmEnemyIndex
+_OBJC_IVAR_$_GVEnemyLogic._currentTopEnemyIndex
+_OBJC_IVAR_$_GVEnemyLogic._bottomeEnemies
+_OBJC_IVAR_$_GVEnemyLogic._topEnemies
+_OBJC_METACLASS_$_GVEnemyLogic
+/Users/meiravfeiler/Documents/Development/Tests projects/Devlopment/Gravity/Gravity/GVEnemyLogic.m
+-[GVSprite initWithImage:]
+-[GVSprite setLoops:]
+-[GVSprite setPosition:]
+-[GVSprite update:]
+-[GVSprite loops]
+-[GVSprite position]
+-[GVSprite speed]
+-[GVSprite setSpeed:]
+-[GVSprite imageView]
+-[GVSprite setImageView:]
+-[GVSprite secondaryView]
+-[GVSprite setSecondaryView:]
+-[GVSprite .cxx_destruct]
+_OBJC_IVAR_$_GVSprite._imageView
+_OBJC_IVAR_$_GVSprite._position
+_OBJC_IVAR_$_GVSprite._loops
+_OBJC_IVAR_$_GVSprite._secondaryView
+_OBJC_IVAR_$_GVSprite._speed
+_OBJC_METACLASS_$_GVSprite
+/Users/meiravfeiler/Documents/Development/Tests projects/Devlopment/Gravity/Gravity/GVSprite.m
+/Users/meiravfeiler/Documents/Development/Tests projects/Devlopment/Gravity/Gravity/GVSprite.h
+-[GVFixedEnemy update:]
+_OBJC_METACLASS_$_GVFixedEnemy
+/Users/meiravfeiler/Documents/Development/Tests projects/Devlopment/Gravity/Gravity/GVFixedEnemy.m
+-[AppDelegate application:didFinishLaunchingWithOptions:]
+-[AppDelegate applicationWillResignActive:]
+-[AppDelegate applicationDidEnterBackground:]
+-[AppDelegate applicationWillEnterForeground:]
+-[AppDelegate applicationDidBecomeActive:]
+-[AppDelegate applicationWillTerminate:]
+-[AppDelegate window]
+-[AppDelegate setWindow:]
+-[AppDelegate .cxx_destruct]
+_OBJC_IVAR_$_AppDelegate._window
+l_OBJC_PROTOCOL_$_UIApplicationDelegate
+l_OBJC_LABEL_PROTOCOL_$_UIApplicationDelegate
+_OBJC_METACLASS_$_AppDelegate
+_OBJC_CLASS_$_AppDelegate
+/Users/meiravfeiler/Documents/Development/Tests projects/Devlopment/Gravity/Gravity/AppDelegate.m
+/Users/meiravfeiler/Documents/Development/Tests projects/Devlopment/Gravity/Gravity/AppDelegate.h
+/Users/meiravfeiler/Documents/Development/Tests projects/Devlopment/Gravity/Gravity/main.m
+main
+-[GVGameSurface init]
+-[GVGameSurface addSprite:toView:]
+-[GVGameSurface tick:]
+-[GVGameSurface touchesBegan:withEvent:]
+-[GVGameSurface touchBeginRecursive:]
+___37-[GVGameSurface touchBeginRecursive:]_block_invoke
+-[GVGameSurface delegate]
+-[GVGameSurface setDelegate:]
+-[GVGameSurface sprites]
+-[GVGameSurface setSprites:]
+-[GVGameSurface .cxx_destruct]
+_OBJC_IVAR_$_GVGameSurface._sprites
+_OBJC_IVAR_$_GVGameSurface._delegate
+_OBJC_METACLASS_$_GVGameSurface
+/Users/meiravfeiler/Documents/Development/Tests projects/Devlopment/Gravity/Gravity/GVGameSurface.m
+/Users/meiravfeiler/Documents/Development/Tests projects/Devlopment/Gravity/Gravity/GVGameSurface.h
+__37-[GVGameSurface touchBeginRecursive:]_block_invoke
+-[GVMovingEnemy initWithImage:]
+-[GVMovingEnemy update:]
+-[GVMovingEnemy isJumpingUp]
+-[GVMovingEnemy setIsJumpingUp:]
+_OBJC_IVAR_$_GVMovingEnemy._isJumpingUp
+_OBJC_METACLASS_$_GVMovingEnemy
+/Users/meiravfeiler/Documents/Development/Tests projects/Devlopment/Gravity/Gravity/GVMovingEnemy.m
+-[GVEnemy initWithLocation:]
+-[GVEnemy xLocation]
+_OBJC_IVAR_$_GVEnemy._xLocation
+/Users/meiravfeiler/Documents/Development/Tests projects/Devlopment/Gravity/Gravity/GVEnemy.m
+/Users/meiravfeiler/Documents/Development/Tests projects/Devlopment/Gravity/Gravity/GVEnemy.h

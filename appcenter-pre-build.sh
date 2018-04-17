@@ -4,7 +4,6 @@
 #Argument should be $(APPLE_PROV_PROFILE_UUID)
 export UUID=031871e2-dfc4-4525-bb42-edf50d99d5f9
 #Argument should be $(APPLE_CERTIFICATE_SIGNING_IDENTITY)
-export APPLE_CERTIFICATE_SIGNING_IDENTITY="$1"
 export FILE=/Users/vsts/Library/MobileDevice/Provisioning\ Profiles/$UUID.mobileprovision
 echo "Sing identity: $APPLE_CERTIFICATE_SIGNING_IDENTITY"
 

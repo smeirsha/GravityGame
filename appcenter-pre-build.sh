@@ -9,7 +9,7 @@ echo "Sing identity: $APPLE_CERTIFICATE_SIGNING_IDENTITY"
 
 echo "File path: $FILE"
 
-security cms -D -i "$FILE" >> temp_profile.plist
+/usr/bin/security cms -D -i "$FILE" >> temp_profile.plist
 # Ignoring stdout error since IsXcodeManaged does not exists in old provisioning profile
 IS_AUTO=$(/usr/libexec/PlistBuddy -c "print IsXcodeManaged" temp_profile.plist 2>/dev/null)
 SIGN_IDENTITY="iPhone Developer"

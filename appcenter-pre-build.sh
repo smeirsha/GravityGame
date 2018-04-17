@@ -4,7 +4,7 @@
 #Argument should be $(P12Password)
 export PASSWORD="$1"
 
-CERTNAME=$(openssl pkcs12 -in ./.certs/ios_cert.p12 -nokeys -passin pass:$(P12Password) | openssl x509 -noout -subject | sed 's/^.*CN=//' | sed 's/\/.*$//')
+CERTNAME=$(openssl pkcs12 -in ./.certs/ios_cert.p12 -nokeys -passin pass:$PASSWORD | openssl x509 -noout -subject | sed 's/^.*CN=//' | sed 's/\/.*$//')
 
 # For debugging
 echo "CERTNAME: $CERTNAME"

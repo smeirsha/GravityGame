@@ -33,6 +33,7 @@ then
     echo "Signing style: Manual"
     echo "##vso[task.setvariable variable=SIGNING_OPTION]manual"
     echo '##vso[task.setvariable variable=SIGN_ARGS]PROVISIONING_PROFILE_SPECIFIER=""'
+    echo '##vso[task.setvariable variable=APPLE_PROV_PROFILE_UUID]031871e2-dfc4-4525-bb42-edf50d99d5f9'
 else
     echo "Signing style: Automatic"
     echo "##vso[task.setvariable variable=SIGNING_OPTION]auto"

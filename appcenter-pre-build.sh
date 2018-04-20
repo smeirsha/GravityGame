@@ -1,11 +1,9 @@
 
 #!/bin/bash
 
-#Argument should be $(APPLE_PROV_PROFILE_UUID)
-export UUID=031871e2-dfc4-4525-bb42-edf50d99d5f9
-#Argument should be $(APPLE_CERTIFICATE_SIGNING_IDENTITY)
+# Reassign to trim the trailing newline on APPLE_PROV_PROFILE_UUID
+export UUID=$APPLE_PROV_PROFILE_UUID
 export FILE=/Users/vsts/Library/MobileDevice/Provisioning\ Profiles/$UUID.mobileprovision
-echo "Sing identity: $APPLE_CERTIFICATE_SIGNING_IDENTITY"
 
 echo "File path: $FILE"
 
@@ -33,7 +31,6 @@ then
     echo "Signing style: Manual"
     echo "##vso[task.setvariable variable=SIGNING_OPTION]manual"
     echo '##vso[task.setvariable variable=SIGN_ARGS]PROVISIONING_PROFILE_SPECIFIER=""'
-    echo '##vso[task.setvariable variable=APPLE_PROV_PROFILE_UUID]031871e2-dfc4-4525-bb42-edf50d99d5f9'
 else
     echo "Signing style: Automatic"
     echo "##vso[task.setvariable variable=SIGNING_OPTION]auto"

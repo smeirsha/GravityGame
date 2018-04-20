@@ -3,6 +3,7 @@
 
 # Reassign to trim the trailing newline on APPLE_PROV_PROFILE_UUID
 export UUID=$APPLE_PROV_PROFILE_UUID
+UUID=$(echo -e $APPLE_PROV_PROFILE_UUID | tr -d '\n')
 export FILE=/Users/vsts/Library/MobileDevice/Provisioning\ Profiles/$UUID.mobileprovision
 
 echo "File path: $FILE"

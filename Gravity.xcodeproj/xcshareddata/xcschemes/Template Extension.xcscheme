@@ -49,7 +49,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "9EE624F520D23A5500171740"
-            BuildableName = "Template Extension.appex"
+            BuildableName = "Template Extension.app"
             BlueprintName = "Template Extension"
             ReferencedContainer = "container:Gravity.xcodeproj">
          </BuildableReference>

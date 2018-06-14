@@ -44,7 +44,7 @@
 		0E6256631BE09B7F00DA9AE9 /* monster.png in Resources */ = {isa = PBXBuildFile; fileRef = 0E6256621BE09B7F00DA9AE9 /* monster.png */; };
 		9EE624FA20D23A5500171740 /* ActionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EE624F920D23A5500171740 /* ActionViewController.m */; };
 		9EE624FD20D23A5500171740 /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9EE624FB20D23A5500171740 /* MainInterface.storyboard */; };
-		9EE6250120D23A5500171740 /* Template Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 9EE624F620D23A5500171740 /* Template Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		9EE6250120D23A5500171740 /* Template Extension.app in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 9EE624F620D23A5500171740 /* Template Extension.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -78,7 +78,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 13;
 			files = (
-				9EE6250120D23A5500171740 /* Template Extension.appex in Embed App Extensions */,
+				9EE6250120D23A5500171740 /* Template Extension.app in Embed App Extensions */,
 			);
 			name = "Embed App Extensions";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -136,7 +136,7 @@
 		0E62565F1BE09A6B00DA9AE9 /* GVFixedEnemy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GVFixedEnemy.h; sourceTree = "<group>"; };
 		0E6256601BE09A6C00DA9AE9 /* GVFixedEnemy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GVFixedEnemy.m; sourceTree = "<group>"; };
 		0E6256621BE09B7F00DA9AE9 /* monster.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = monster.png; sourceTree = "<group>"; };
-		9EE624F620D23A5500171740 /* Template Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Template Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9EE624F620D23A5500171740 /* Template Extension.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Template Extension.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9EE624F820D23A5500171740 /* ActionViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ActionViewController.h; sourceTree = "<group>"; };
 		9EE624F920D23A5500171740 /* ActionViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ActionViewController.m; sourceTree = "<group>"; };
 		9EE624FC20D23A5500171740 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MainInterface.storyboard; sourceTree = "<group>"; };
@@ -195,7 +195,7 @@
 				0E6255D21BDEFF0700DA9AE9 /* Gravity.app */,
 				0E6255EB1BDEFF0800DA9AE9 /* GravityTests.xctest */,
 				0E6255F61BDEFF0800DA9AE9 /* GravityUITests.xctest */,
-				9EE624F620D23A5500171740 /* Template Extension.appex */,
+				9EE624F620D23A5500171740 /* Template Extension.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -365,8 +365,8 @@
 			);
 			name = "Template Extension";
 			productName = "Template Extension";
-			productReference = 9EE624F620D23A5500171740 /* Template Extension.appex */;
-			productType = "com.apple.product-type.app-extension";
+			productReference = 9EE624F620D23A5500171740 /* Template Extension.app */;
+			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 

@@ -42,6 +42,9 @@
 		0E62565E1BE0802800DA9AE9 /* gameover.png in Resources */ = {isa = PBXBuildFile; fileRef = 0E62565D1BE0802800DA9AE9 /* gameover.png */; };
 		0E6256611BE09A6C00DA9AE9 /* GVFixedEnemy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E6256601BE09A6C00DA9AE9 /* GVFixedEnemy.m */; };
 		0E6256631BE09B7F00DA9AE9 /* monster.png in Resources */ = {isa = PBXBuildFile; fileRef = 0E6256621BE09B7F00DA9AE9 /* monster.png */; };
+		9EE624FA20D23A5500171740 /* ActionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EE624F920D23A5500171740 /* ActionViewController.m */; };
+		9EE624FD20D23A5500171740 /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9EE624FB20D23A5500171740 /* MainInterface.storyboard */; };
+		9EE6250120D23A5500171740 /* Template Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 9EE624F620D23A5500171740 /* Template Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,7 +62,28 @@
 			remoteGlobalIDString = 0E6255D11BDEFF0700DA9AE9;
 			remoteInfo = Gravity;
 		};
+		9EE624FF20D23A5500171740 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0E6255CA1BDEFF0700DA9AE9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9EE624F520D23A5500171740;
+			remoteInfo = "Template Extension";
+		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		9EE6250520D23A5500171740 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				9EE6250120D23A5500171740 /* Template Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		0E6255D21BDEFF0700DA9AE9 /* Gravity.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Gravity.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -112,6 +136,11 @@
 		0E62565F1BE09A6B00DA9AE9 /* GVFixedEnemy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GVFixedEnemy.h; sourceTree = "<group>"; };
 		0E6256601BE09A6C00DA9AE9 /* GVFixedEnemy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GVFixedEnemy.m; sourceTree = "<group>"; };
 		0E6256621BE09B7F00DA9AE9 /* monster.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = monster.png; sourceTree = "<group>"; };
+		9EE624F620D23A5500171740 /* Template Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Template Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9EE624F820D23A5500171740 /* ActionViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ActionViewController.h; sourceTree = "<group>"; };
+		9EE624F920D23A5500171740 /* ActionViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ActionViewController.m; sourceTree = "<group>"; };
+		9EE624FC20D23A5500171740 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MainInterface.storyboard; sourceTree = "<group>"; };
+		9EE624FE20D23A5500171740 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -137,6 +166,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		9EE624F320D23A5500171740 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -148,6 +184,7 @@
 				0E6255D41BDEFF0700DA9AE9 /* Gravity */,
 				0E6255EE1BDEFF0800DA9AE9 /* GravityTests */,
 				0E6255F91BDEFF0800DA9AE9 /* GravityUITests */,
+				9EE624F720D23A5500171740 /* Template Extension */,
 				0E6255D31BDEFF0700DA9AE9 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -158,6 +195,7 @@
 				0E6255D21BDEFF0700DA9AE9 /* Gravity.app */,
 				0E6255EB1BDEFF0800DA9AE9 /* GravityTests.xctest */,
 				0E6255F61BDEFF0800DA9AE9 /* GravityUITests.xctest */,
+				9EE624F620D23A5500171740 /* Template Extension.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -244,6 +282,17 @@
 			name = art;
 			sourceTree = "<group>";
 		};
+		9EE624F720D23A5500171740 /* Template Extension */ = {
+			isa = PBXGroup;
+			children = (
+				9EE624F820D23A5500171740 /* ActionViewController.h */,
+				9EE624F920D23A5500171740 /* ActionViewController.m */,
+				9EE624FB20D23A5500171740 /* MainInterface.storyboard */,
+				9EE624FE20D23A5500171740 /* Info.plist */,
+			);
+			path = "Template Extension";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -254,10 +303,12 @@
 				0E6255CE1BDEFF0700DA9AE9 /* Sources */,
 				0E6255CF1BDEFF0700DA9AE9 /* Frameworks */,
 				0E6255D01BDEFF0700DA9AE9 /* Resources */,
+				9EE6250520D23A5500171740 /* Embed App Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				9EE6250020D23A5500171740 /* PBXTargetDependency */,
 			);
 			name = Gravity;
 			productName = Gravity;
@@ -300,6 +351,23 @@
 			productReference = 0E6255F61BDEFF0800DA9AE9 /* GravityUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
+		9EE624F520D23A5500171740 /* Template Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9EE6250420D23A5500171740 /* Build configuration list for PBXNativeTarget "Template Extension" */;
+			buildPhases = (
+				9EE624F220D23A5500171740 /* Sources */,
+				9EE624F320D23A5500171740 /* Frameworks */,
+				9EE624F420D23A5500171740 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Template Extension";
+			productName = "Template Extension";
+			productReference = 9EE624F620D23A5500171740 /* Template Extension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -322,6 +390,11 @@
 						CreatedOnToolsVersion = 7.0.1;
 						TestTargetID = 0E6255D11BDEFF0700DA9AE9;
 					};
+					9EE624F520D23A5500171740 = {
+						CreatedOnToolsVersion = 9.2;
+						DevelopmentTeam = 5Z97G9NZQ6;
+						ProvisioningStyle = Automatic;
+					};
 				};
 			};
 			buildConfigurationList = 0E6255CD1BDEFF0700DA9AE9 /* Build configuration list for PBXProject "Gravity" */;
@@ -340,6 +413,7 @@
 				0E6255D11BDEFF0700DA9AE9 /* Gravity */,
 				0E6255EA1BDEFF0800DA9AE9 /* GravityTests */,
 				0E6255F51BDEFF0800DA9AE9 /* GravityUITests */,
+				9EE624F520D23A5500171740 /* Template Extension */,
 			);
 		};
 /* End PBXProject section */
@@ -388,6 +462,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		9EE624F420D23A5500171740 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9EE624FD20D23A5500171740 /* MainInterface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -424,6 +506,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		9EE624F220D23A5500171740 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9EE624FA20D23A5500171740 /* ActionViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -436,6 +526,11 @@
 			isa = PBXTargetDependency;
 			target = 0E6255D11BDEFF0700DA9AE9 /* Gravity */;
 			targetProxy = 0E6255F71BDEFF0800DA9AE9 /* PBXContainerItemProxy */;
+		};
+		9EE6250020D23A5500171740 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9EE624F520D23A5500171740 /* Template Extension */;
+			targetProxy = 9EE624FF20D23A5500171740 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -454,6 +549,14 @@
 				0E6255E41BDEFF0700DA9AE9 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		9EE624FB20D23A5500171740 /* MainInterface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9EE624FC20D23A5500171740 /* Base */,
+			);
+			name = MainInterface.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -543,13 +646,15 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 29UTQE9JS9;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = Gravity/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = meirav.com.novn.Gravity;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 			};
 			name = Debug;
@@ -558,13 +663,15 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 29UTQE9JS9;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = Gravity/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = meirav.com.novn.Gravity;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 			};
 			name = Release;
@@ -621,6 +728,66 @@
 			};
 			name = Release;
 		};
+		9EE6250220D23A5500171740 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5Z97G9NZQ6;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = "Template Extension/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "meirav.com.novn.Gravity.Template-Extension";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9EE6250320D23A5500171740 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5Z97G9NZQ6;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = "Template Extension/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "meirav.com.novn.Gravity.Template-Extension";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -656,6 +823,15 @@
 			buildConfigurations = (
 				0E6256061BDEFF0800DA9AE9 /* Debug */,
 				0E6256071BDEFF0800DA9AE9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9EE6250420D23A5500171740 /* Build configuration list for PBXNativeTarget "Template Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9EE6250220D23A5500171740 /* Debug */,
+				9EE6250320D23A5500171740 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

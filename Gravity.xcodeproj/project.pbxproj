@@ -42,6 +42,7 @@
 		0E62565E1BE0802800DA9AE9 /* gameover.png in Resources */ = {isa = PBXBuildFile; fileRef = 0E62565D1BE0802800DA9AE9 /* gameover.png */; };
 		0E6256611BE09A6C00DA9AE9 /* GVFixedEnemy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E6256601BE09A6C00DA9AE9 /* GVFixedEnemy.m */; };
 		0E6256631BE09B7F00DA9AE9 /* monster.png in Resources */ = {isa = PBXBuildFile; fileRef = 0E6256621BE09B7F00DA9AE9 /* monster.png */; };
+		9E6F34E820D37E5200ED0695 /* GravityTest2.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E6F34E720D37E5200ED0695 /* GravityTest2.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -126,6 +127,7 @@
 		0E6256601BE09A6C00DA9AE9 /* GVFixedEnemy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GVFixedEnemy.m; sourceTree = "<group>"; };
 		0E6256621BE09B7F00DA9AE9 /* monster.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = monster.png; sourceTree = "<group>"; };
 		9E6F34E520D3791200ED0695 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		9E6F34E720D37E5200ED0695 /* GravityTest2.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GravityTest2.m; sourceTree = "<group>"; };
 		9EE624F820D23A5500171740 /* ActionViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ActionViewController.h; sourceTree = "<group>"; };
 		9EE624F920D23A5500171740 /* ActionViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ActionViewController.m; sourceTree = "<group>"; };
 		9EE624FC20D23A5500171740 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MainInterface.storyboard; sourceTree = "<group>"; };
@@ -225,6 +227,7 @@
 			children = (
 				0E6255EF1BDEFF0800DA9AE9 /* GravityTests.m */,
 				0E6255F11BDEFF0800DA9AE9 /* Info.plist */,
+				9E6F34E720D37E5200ED0695 /* GravityTest2.m */,
 			);
 			path = GravityTests;
 			sourceTree = "<group>";
@@ -445,6 +448,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0E6255F01BDEFF0800DA9AE9 /* GravityTests.m in Sources */,
+				9E6F34E820D37E5200ED0695 /* GravityTest2.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

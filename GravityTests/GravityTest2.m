@@ -12,7 +12,7 @@
 
 @end
 
-@implementation GravityTests
+@implementation GravityTests2
 
 - (void)setUp {
   [super setUp];
